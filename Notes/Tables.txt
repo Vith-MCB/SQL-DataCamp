@@ -1,0 +1,32 @@
+# Table Names
+The names should follow some patterns:
+    - Lowercase
+    - Plural
+    - Use "_" instead of blank spaces
+
+    Ex:
+    - patrons
+    - books
+    - new_employees
+
+Table rows and collumns are referred to as records and fields
+
+# Records
+A record id a row that holds data on an individual observation
+
+card_num | name | member_year | total_fine
+  45783  |Jasmin|    2022     |    2.05   <- Jasmin became a member in 2022 and owes $2.05
+
+# Fields  
+A field is a column that holds one piece of information about all records
+    - The "name" field lists all of the names of the Table
+
+    Field names should:
+        - Be lowercase
+        - Have no spaces
+        - Be singular
+        - Be different from other field names
+        - Be different from the table name
+
+# Keys (Unique identifiers)
+Are used to identify records in a table, they are unique and often numbers
